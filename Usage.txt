@@ -1,0 +1,1 @@
+fliflc2pngs <in fli or flc file> <outdir pngs>
