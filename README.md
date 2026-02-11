@@ -1,35 +1,33 @@
-# fliflc2pngs
+fliflc2pngs
 
-**Tiny FLI/FLC → PNG sequence converter**
+Tiny FLI/FLC → PNG sequence converter
 
-Ultra-small standalone tool for converting legacy Autodesk Animator animations into PNG image sequences.  
-**Binary size x64: ~47 KB**
-**Binary size x86: ~39 KB**
+Ultra-small standalone tool for converting legacy Autodesk Animator animations into PNG frames.
+Binary size: x64 ~47 KB • x86 ~39 KB
 
-fliflc2pngs - минималистичный конвертер старых анимационных форматов **FLI / FLC** в последовательность PNG-кадров.
-Проект создан как маленький, быстрый и независимый инструмент без лишних зависимостей и громоздких библиотек.  
-Он делает ровно одну задачу — и делает её максимально просто.
-## Why this exists
+Минималистичный конвертер форматов FLI / FLC в последовательность PNG-кадров без зависимостей и установки.
 
-FLI/FLC — форматы из эпохи DOS и раннего PC-гейминга. Сегодня такие файлы всё ещё встречаются в:
-- старых играх  
-- демосцене  
-- архивах и preservation-проектах  
-- ретро-инструментах и движках  
-Современные инструменты либо тяжёлые, либо требуют сложной установки.  
-fliflc2pngs задумывался как противоположность этому.
+Why this exists
 
-Минимальный размер.  
-Никаких зависимостей.  
-Никакой установки.  
-Просто запустить и получить PNG кадры.
-## Особенности
-- Поддержка FLI и FLC  
-- Конвертация в PNG sequence  
-- Один исполняемый файл  
-- Без библиотек и runtime  
-- Очень быстрый запуск  
-- Подходит для batch-обработки  
-- Работает полностью офлайн
-## Использование
-fliflc2pngs <in fli or flc file> <outdir pngs>
+FLI/FLC — форматы эпохи DOS и раннего PC-гейминга.
+Сегодня они всё ещё встречаются в ретро-играх, демосцене и архивах.
+
+Современные инструменты часто тяжёлые или сложные в установке.
+fliflc2pngs делает одну задачу — быстро и просто.
+
+Features
+
+FLI / FLC → PNG sequence
+
+Один исполняемый файл
+
+Без библиотек и runtime
+
+Быстрый запуск
+
+Подходит для batch-обработки
+
+Полностью офлайн
+
+Usage
+fliflc2pngs <input.fli|flc> <output_folder>
